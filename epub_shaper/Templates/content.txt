@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+  <metadata xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:contributor opf:role="bkp">calibre (4.23.0) [https://calibre-ebook.com]</dc:contributor>
+    <meta name="calibre:title_sort" content="ADD_TITLE"/>
+    <dc:creator opf:file-as="Author" opf:role="aut">ADD_AUTHOR</dc:creator>
+    <meta name="calibre:timestamp" content="ADD_DATE"/>
+    <dc:date>ADD_DATE</dc:date>
+    <dc:identifier opf:scheme="MOBI-ASIN">B08GFBFGXS</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">792b45e0-829a-4eaf-b3bb-cc2a0ffe6cf1</dc:identifier>
+    <dc:identifier opf:scheme="calibre">792b45e0-829a-4eaf-b3bb-cc2a0ffe6cf1</dc:identifier>
+    <dc:title>ADD_TITLE</dc:title>
+    <dc:language>en</dc:language>
+    <meta name="cover" content="cover"/>
+    <meta content="horizontal-lr" name="primary-writing-mode"/>
+  </metadata>
+  <manifest>
+    <item href="images/cover.jpeg" id="cover" media-type="image/jpeg"/>
+    <item href="titlepage.xhtml" id="titlepage" media-type="application/xhtml+xml"/>
+    <item href="text/ADD_CHAPTER" id="ADD_ID_CHAPTER" media-type="application/xhtml+xml"/>
+    <item href="page_styles.css" id="page_css" media-type="text/css"/>
+    <item href="stylesheet.css" id="css" media-type="text/css"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="titlepage"/>
+    <itemref idref="ADD_ID_CHAPTER"/>
+  </spine>
+  <guide>
+    <reference href="text/ADD_FIRST_CHAPTER" title="start" type="text"/>
+    <reference href="titlepage.xhtml" title="Cover" type="cover"/>
+  </guide>
+</package>

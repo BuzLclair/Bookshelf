@@ -1,0 +1,20 @@
+h3 {
+	font-family:Georgia,serif;
+	color:#A80C1E;
+	display:block;
+	font-size:36px;
+	font-weight:normal;
+	letter-spacing:-1px;
+	line-height:1em;
+	}                       
+p {
+	font-family:Georgia,serif;
+	color:#666666;
+	font-size:16px;
+	line-height:16px;
+	margin:0 0 0 0;
+	padding : 6px;
+	line-spacing:1.2;
+	break-after: always;
+	}
+
