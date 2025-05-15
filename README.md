@@ -13,9 +13,9 @@ Bookshelf is a Python package designed to fetch and generate EPUB books from onl
 Clone this repository and install dependencies:
 
 ```sh
-    git clone https://github.com/BuzLclair/Bookshelf.git
-    cd Bookshelf
-    pip install requests tqdm shutil threading time
+git clone https://github.com/BuzLclair/Bookshelf.git
+cd Bookshelf
+pip install requests tqdm shutil threading time
 ```
 
 # Usage
@@ -23,7 +23,7 @@ Clone this repository and install dependencies:
 Run the following command to generate an EPUB file:
 
 ``` sh
-    python epub_generator.py
+python epub_generator.py
 ```
 This script fetches novel data, processes the chapters, and outputs a formatted EPUB file.
 
