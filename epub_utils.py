@@ -17,9 +17,9 @@ def book_folder():
     try:
         os.mkdir(book_path)
     except FileExistsError:
-        # os.remove(f'{PROJECT_PATH}/Books/book_lab/')
-        # os.mkdir(book_path)
-        pass
+        os.remove(f'{PROJECT_PATH}/Books/book_lab/')
+        os.mkdir(book_path)
+        # pass
     return book_path
 
 
